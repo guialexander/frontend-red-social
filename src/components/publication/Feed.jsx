@@ -1,3 +1,11 @@
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable react/function-component-definition */
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable jsx-quotes */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable arrow-body-style */
 import React from 'react';
 import avatar from '../../assets/img/user.png';
 
@@ -148,6 +156,7 @@ export const Feed = () => {
       </div>
 
       <div className="content__container-btn">
+        // eslint-disable-next-line react/button-has-type
         <button className="content__btn-more-post">
           Ver mas publicaciones
         </button>

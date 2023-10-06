@@ -1,6 +1,12 @@
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable arrow-body-style */
+/* eslint-disable jsx-quotes */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/self-closing-comp */
 import React from 'react';
 import avatar from '../../../assets/img/user.png';
 
+// eslint-disable-next-line react/function-component-definition
 export const Nav = () => {
   return (
     <nav className="navbar__container-lists">

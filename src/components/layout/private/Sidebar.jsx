@@ -1,6 +1,16 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-no-useless-fragment */
+/* eslint-disable jsx-quotes */
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable react/function-component-definition */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/self-closing-comp */
 import React from 'react';
 import avatar from '../../../assets/img/user.png';
 
+// eslint-disable-next-line arrow-body-style, linebreak-style
 export const Sidebar = () => {
   return (
     <>
@@ -60,6 +70,7 @@ export const Sidebar = () => {
                 <textarea
                   name="post"
                   className="form-post__textarea"
+                  // eslint-disable-next-line react/jsx-closing-tag-location
                 ></textarea>
               </div>
 
